@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/student_data_raw.csv
+data/processed/*
+!data/processed/.gitkeep
+
+# Models
+# models/*.pkl
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv
+env/
+venv/
